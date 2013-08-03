@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Patrick Walton	/pwalton@mozilla.com/
+!_TAG_PROGRAM_NAME	jsctags	//
+!_TAG_PROGRAM_URL	http://github.com/pcwalton/jsctags	/GitHub repository/
+!_TAG_PROGRAM_VERSION	0.1	//
+server	index.js	/^var server = require(".\/server.js");$/;"	v	lineno:1	type:any
+http	server.js	/^var http = require("http");$/;"	v	lineno:1	type:any
+route	router.js	/^function route (handle, pathname, response, postData) {$/;"	f	lineno:1	type:void function(any, any, any, any)
+querystring	requestHandlers.js	/^var querystring = require("querystring"),$/;"	v	lineno:1	type:any
+url	server.js	/^var url = require("url");$/;"	v	lineno:2	type:any
+fs	requestHandlers.js	/^      fs = require("fs");$/;"	v	lineno:2	type:any
+router	index.js	/^var router = require(".\/router");$/;"	v	lineno:2	type:any
+requestHandlers	index.js	/^var requestHandlers = require(".\/requestHandlers");$/;"	v	lineno:3	type:any
+start	requestHandlers.js	/^function start(response, postData) {$/;"	f	lineno:4	type:void function(any, any)
+handle	index.js	/^var handle = {}$/;"	v	lineno:5	type:Object
+start	server.js	/^function start(route, handle) {$/;"	f	lineno:5	type:void function(any, any)
+onRequest	server.js	/^  function onRequest(request, response) {$/;"	f	lineno:6	type:void function(any, any)
+%anonymous_function	server.js	/^    request.addListener("data", function(postDataChunk) {$/;"	f	lineno:11	type:void function(any)
+%anonymous_function	server.js	/^    request.addListener("end", function() {$/;"	f	lineno:16	type:void function()
+upload	requestHandlers.js	/^function upload(response, postData) {$/;"	f	lineno:25	type:void function(any, any)
+show	requestHandlers.js	/^function show (response, postData) {$/;"	f	lineno:33	type:void function(any, any)
+%anonymous_function	requestHandlers.js	/^  fs.readFile("\/tmp\/test.png", "binary", function(error, file) {$/;"	f	lineno:35	type:void function(any, any)
