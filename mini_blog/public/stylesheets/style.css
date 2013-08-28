@@ -1,9 +1,21 @@
+header {
+  height: 20px;
+  background: #354b5e;
+  padding: 10px;
+  font-size: 10px;
+}
+header h1 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #d74b4b;
+}
 body {
-  font-family: "Helvetica Neue", "Lucida Grande", "Arial";
+  font-family: "Arial", "Helvetica Neue", "Lucida Grande";
   font-size: 13px;
   text-align: center;
   text-stroke: 1px rgba(255,255,255,0.1);
   color: #555;
+  background: #475f77;
 }
 h1,
 h2 {
@@ -12,14 +24,14 @@ h2 {
   color: #343434;
 }
 h1 {
-  text-shadow: 1px 2px 2px #ddd;
   font-size: 60px;
 }
 #articles {
-  text-align: left;
+  position: absolute;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
+  width: 80%;
 }
 #articles .article {
   margin: 20px;
@@ -34,4 +46,41 @@ h1 {
 }
 #articles .article .body {
   background-color: #ffa;
+}
+#leftpanel {
+  align: left;
+  position: relative;
+  float: left;
+  background: #475f77;
+  border-left: 1px;
+  width: 10%;
+  height: 100em;
+}
+#leftpanel .title {
+  background: #008000;
+}
+#leftpanel .body {
+  background: #f00;
+}
+#rightpanel {
+  align: right;
+  position: relative;
+  float: right;
+  background: #475f77;
+  width: 10%;
+  height: 100em;
+}
+#rightpanel .title {
+  background: #008000;
+}
+#rightpanel .body {
+  background: #f00;
+}
+footer {
+  background: #354b5e;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+/* Height of the footer */
 }
